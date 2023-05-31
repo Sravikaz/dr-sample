@@ -118,6 +118,8 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: customerpvc
+  labels:
+    appname: acmeair
 spec:
   accessModes:
     - ReadWriteOnce

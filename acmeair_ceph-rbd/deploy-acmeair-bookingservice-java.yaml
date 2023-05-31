@@ -151,6 +151,8 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: bookingpvc
+  labels:
+    appname: acmeair
 spec:
   accessModes:
     - ReadWriteOnce

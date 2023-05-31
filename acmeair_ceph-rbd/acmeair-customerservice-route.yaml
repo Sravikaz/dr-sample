@@ -9,3 +9,14 @@ spec:
   to:
     kind: Service
     name: acmeair-customer-service
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: acmeair-customer-route
+spec:
+  host: acmeair.apps.ocpm4202001.lnxero1.boe
+  path: /customer
+  to:
+    kind: Service
+    name: acmeair-customer-service
