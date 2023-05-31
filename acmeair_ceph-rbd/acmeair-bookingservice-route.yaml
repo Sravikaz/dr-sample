@@ -2,7 +2,7 @@
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: acmeair-booking-route
+  name: acmeair-booking-route-mc1
 spec:
   host: acmeair.apps.ocsm4205001.lnxero1.boe
   path: /booking
@@ -13,7 +13,7 @@ spec:
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: acmeair-booking-route
+  name: acmeair-booking-route-mc2
 spec:
   host: acmeair.apps.ocpm4202001.lnxero1.boe
   path: /booking
